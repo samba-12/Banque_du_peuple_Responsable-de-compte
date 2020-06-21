@@ -1,0 +1,101 @@
+body{
+	background-repeat: no-repeat;
+	  background-size: cover; 
+	  background-image: url("img/background.jpg");
+}
+
+div {
+	width: 120px;
+  	height: 100px;
+  	margin-top:25px;
+  	margin-left: 510px;
+}
+
+h1 {
+	margin-bottom: 1px;
+	color: white;
+	margin-left: 650px;
+}
+h3{
+	margin-top: 10px;
+	color: white;
+	margin-left: 650px;
+}
+
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 210px;
+}
+#list{
+	border-radius: 10px;
+	font-size: 16px;
+	width: 200px;
+}
+.MyDiv{
+	text-align: center;
+	background-image: url("img/BPlogo2.png");
+	    height: 137px;
+    width: 125px;
+}
+.form_col{
+	margin-top: 10px;
+	color: white;
+
+}
+input{
+	margin-top: 10px;
+	background-color: transparent;
+	border-radius: 10px;
+	font-size: 20px;
+	border-color: white;
+}
+.element4{
+	  	margin-top:150px;
+	  	margin-left: 480px;
+}
+input[type="submit"] {
+    background-color: #00C3C7;
+    color: white;
+    font-size: 18px;
+    display: block;
+    width: 221px;
+    height: 40px;
+    margin-left: -15px;
+}
+/*//===========================================================*/
+.containerAj{
+	background-color: #FCFCFC;
+}
+.logoajout{
+	 position: absolute; /* postulat de départ */
+  top: 7%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%);
+}
+.menu{
+	background-color: #00C3C7;
+	font-size: 22px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+li {
+  display: inline;
+}
+li a {
+  color: white;
+  padding: 14px 60px;
+  text-decoration: none;
+  text-align: center;
+}
+.formajout{
+	text-align: left;
+	display: block;
+	float: left;
+}

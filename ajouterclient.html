@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+<div class="containerAj">
+<div><img src="img/logoajout.png" class="logoajout"></div>
+</div>
+<form method="post" action="enregistrement.php">
+<ul class="menu">
+  <li><a href="#home">Accueil</a></li>
+  <li><a href="#Liste">Liste clients</a></li>
+  <li><a href="#Ajouter">Ajouter client</a></li>
+  <li><a href="#Virement">Virement</a></li>
+  <li><a href="#Assistance">Assistance</a></li>
+</ul>
+
+<div class="formajout">
+<label for="prenom">Prenom * :</label><br><input name="prenom" id="prenom" type="text" required="required" /> 
+<span id="absence_prenom"></span>
+<label for="nom">Nom  * :</label><br><input name="nom" id="nom" type="text" required="required" /> 
+<span id="absence_nom"></span>
+<label for="adresse">Adresse * :</label><br><input name="adresse" id="adresse" type="text"required="required"  />
+<span id="absence_adresse"></span><br>
+<label for="email">Email :</label><br><input name="email" id="email" type="email" /> 
+<label for="tel">Telephone * :</label><br><input name="tel" id="tel" type="tel" required="required"  /> 
+<span id="absence_tel"></span>
+</div>
+<div class="formajout2">
+		<select id="list">
+		     <option>Choisissez un type de compte *</option>
+		     <option>Compte épargne simple et xeewel</option>
+		     <option>Compte courant</option>
+		     <option>Compte bloque</option>
+		</select required="required">
+<label for="salaire">Salaire  :</label><br><input name="salaire" id="salaire" type="number" /> 
+<label for="infos">Infos employeur :</label><br><input name="infos" id="infos" type="text" /> 
+<label for="identification">Identification * :</label><br><input name="identification" id="identification" type="text" />
+<label for="numero">Numero compte* :</label><br><input name="numero" id="numero" type="number" required="required" /> 
+</div>
+
+	<div class="col-container1">
+          <div class="col"><input type="submit" value="Valider" id="envoi"></div>
+          <div class="col"><input type="submit" value="Annuler"></div>
+    </div>
+</form>
+<script src="script1.js"></script>
+
+</body>
+</html>
